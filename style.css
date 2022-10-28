@@ -31,6 +31,67 @@ h5 {
   border: 10px solid black;
   border-radius: 20%;
 }
+.container h1 {
+    text-align: center;
+    font-size: 78px;
+    padding: .2em 0 0 0;
+    margin: 0;
+}
+.pad.red {
+    left:15px;
+    top:15px;
+    background:rgb(255,0,0);
+    -webkit-border-radius:320px 20px 20px;
+    -moz-border-radius:320px 20px 20px;
+    -o-border-radius:320px 20px 20px;
+    border-radius:320px 20px 20px;
+}
+.pad.green {
+    right:15px;
+    top:15px;
+    background:rgb(0,255,0);
+    -webkit-border-radius:20px 320px 20px 20px;
+    -moz-border-radius:20px 320px 20px 20px;
+    -o-border-radius:20px 320px 20px 20px;
+    border-radius:20px 320px 20px 20px;
+}
+.pad.yellow {
+    bottom:15px;
+    right:15px;
+    background:rgb(255,255,0);
+    -webkit-border-radius:20px 20px 320px 20px;
+    -moz-border-radius:20px 20px 320px 20px;
+    -o-border-radius:20px 20px 320px 20px;
+    border-radius:20px 20px 320px 20px;
+}
+.pad.blue {
+    bottom:15px;
+    left:15px;
+    background:rgb(0,0,255);
+    -webkit-border-radius:20px 20px 20px 320px;
+    -moz-border-radius:20px 20px 20px 320px;
+    -o-border-radius:20px 20px 20px 320px;
+    border-radius:20px 20px 20px 320px;
+}
+.simon {
+    position:relative;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -o-border-radius:50%;
+    border-radius:50%;
+    width:400px;
+    height:400px;
+    background:#000;
+    margin:20px;
+    background:rgb(0,0,0);
+    background:-moz-linear-gradient(45deg,rgba(0,0,0,1) 0%,rgba(28,36,45,1) 100%);
+    background:-webkit-gradient(linear,left bottom,right top,color-stop(0%,rgba(0,0,0,1)),color-stop(100%,rgba(28,36,45,1)));
+    background:-webkit-linear-gradient(45deg,rgba(0,0,0,1) 0%,rgba(28,36,45,1) 100%);
+    background:-o-linear-gradient(45deg,rgba(0,0,0,1) 0%,rgba(28,36,45,1) 100%);
+    background:-ms-linear-gradient(45deg,rgba(0,0,0,1) 0%,rgba(28,36,45,1) 100%);
+    background:linear-gradient(45deg,rgba(0,0,0,1) 0%,rgba(28,36,45,1) 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000',endColorstr='#1c242d',GradientType=1 );
+}
 
 .game-over {
   background-color: red;
